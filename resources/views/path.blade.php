@@ -141,11 +141,7 @@
 
 
         <img src="{{asset('baring.jpg')}}" style="width: auto; height: auto">
-        
-        <section id="section08" class="demo">
-          <h1>Scroll Down Button #8</h1>
-          <a href="#section09"><span></span>Scroll</a>
-        </section>
+
         
 
 

@@ -30,6 +30,7 @@
                 text-decoration: none;
                 text-transform: uppercase;
                 text-align: right;
+
             }
 
             .flex-center {
@@ -105,7 +106,7 @@
 
             .content-wrapper img {
                 position: absolute;
-                margin-top: -1px; 
+                margin-top: -150px; 
 
             }
 
@@ -272,4 +273,23 @@
 
 
     </body>
+
+    <footer>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12">
+                <ul class="social-icon wow fadeInUp">
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-dribbble"></a></li>
+                    <li><a href="#" class="fa fa-behance"></a></li>
+                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
 </html>
