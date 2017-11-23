@@ -12,10 +12,20 @@
 */
 Route::view('/station', 'station');
 Route::get('/', function () {
-    return view('welcome');
-
+    return view('index');
 });
+Route::get('/silom', function () {
+    return view('silom')->with('silom_stations', \App\SilomStation::all());
+});
+Route::get('/sukhumvit', function () {
+    return view('sukhumvit')->with('sukhumvit_stations', \App\SukhumvitStation::all());
+});
+
+Route::get('places/{id}', 'PlaceController@get');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/index', function () {
+    return view('index');
+});
