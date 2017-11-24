@@ -63,7 +63,7 @@
 
 <!-- Header section
 ================================================== -->
-<section id="header" class="header-one">
+<section id="header" class="header-one-one">
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
