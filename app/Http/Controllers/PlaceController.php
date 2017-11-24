@@ -10,10 +10,10 @@ class PlaceController extends Controller
 {
     public function get($id) {
         if ($id < 21) {
-            $place = SukhumvitPlaces::find($id);
+            $place = sukhumvit_places::find($id);
         }
         else if ($id > 21) {
-            $place = SilomPlaces::find($id);
+            $place = silom_places::find($id);
         }
 
         return view('content')->with('places', $place);

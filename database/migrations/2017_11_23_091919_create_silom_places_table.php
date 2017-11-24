@@ -16,12 +16,10 @@ class CreateSilomPlacesTable extends Migration
         Schema::create('silom_places', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('line');
             $table->string('station');
             $table->string('openclose');
             $table->string('detail');
             $table->string('image');
-            $table->string('line');
             $table->timestamps();
         });
     }

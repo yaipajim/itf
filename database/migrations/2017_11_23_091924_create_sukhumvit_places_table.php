@@ -16,7 +16,6 @@ class CreateSukhumvitPlacesTable extends Migration
         Schema::create('sukhumvit_places', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('line');
             $table->string('station');
             $table->string('openclose');
             $table->string('detail');
