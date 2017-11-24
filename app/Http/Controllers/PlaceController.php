@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\SilomPlaces;
-use App\Sukhumvitplaces;
+use App\SukhumvitPlaces;
 use Illuminate\Http\Request;
 
 class PlaceController extends Controller
