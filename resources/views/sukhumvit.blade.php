@@ -9,11 +9,11 @@
 
     <title>เที่ยวตามราง</title>
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -95,7 +95,7 @@
                             @foreach ($sukhumvit_stations as $station)
                             <div class="iso-box temple col-md-4 col-sm-6">
                                 <div class="portfolio-thumb">
-                                    <img src="{{ asset('images/'.$station->id.'.jpg') }}" class="img-responsive" alt="Portfolio">
+                                    <img src="{{ secure_asset('images/'.$station->id.'.jpg') }}" class="img-responsive" alt="Portfolio">
                                     <div class="portfolio-overlay">
                                         <div class="portfolio-item">
                                             <a href="/places/{{$station->id}}"><i class="fa fa-link"></i></a>
@@ -135,12 +135,12 @@
 
 <!-- Javascript
 ================================================== -->
-<script src="{{ asset('js/jquery.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/isotope.js') }}"></script>
-<script src="{{ asset('js/imagesloaded.min.js') }}"></script>
-<script src="{{ asset('js/wow.min.js') }}"></script>
-<script src="{{ asset('js/custom.js') }}"></script>
+<script src="{{ secure_asset('js/jquery.js') }}"></script>
+<script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ secure_asset('js/isotope.js') }}"></script>
+<script src="{{ secure_asset('js/imagesloaded.min.js') }}"></script>
+<script src="{{ secure_asset('js/wow.min.js') }}"></script>
+<script src="{{ secure_asset('js/custom.js') }}"></script>
 
 </body>
 </html>

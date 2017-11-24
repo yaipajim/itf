@@ -14,11 +14,11 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -116,7 +116,7 @@
 
             <div class="wow fadeInUp col-md-7 col-sm-7">
                 <p>{{$places->detail}}</p>
-                <img src="{{ asset('images/'.$places->id.'.jpg') }}" class="img-responsive" alt="Single Project">
+                <img src="{{ secure_asset('images/'.$places->id.'.jpg') }}" class="img-responsive" alt="Single Project">
             </div>
 
         </div>
@@ -140,10 +140,10 @@
 
 <!-- Javascript
 ================================================== -->
-<script src="{{ asset('js/jquery.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/wow.min.js') }}"></script>
-<script src="{{ asset('js/custom.js') }}"></script>
+<script src="{{ secure_asset('js/jquery.js') }}"></script>
+<script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ secure_asset('js/wow.min.js') }}"></script>
+<script src="{{ secure_asset('js/custom.js') }}"></script>
 
 </body>
 </html>

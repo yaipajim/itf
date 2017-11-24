@@ -9,11 +9,16 @@
     <meta name="description" content="">
 
     <title>เที่ยวตามราง</title>
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset
+   ('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset
+   ('css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset
+   ('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset
+   ('css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset
+   ('css/style.css') }}">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 
@@ -130,10 +135,10 @@
 
 <!-- Javascript
 ================================================== -->
-<script src="{{ asset('js/jquery.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/wow.min.js') }}"></script>
-<script src="{{ asset('js/custom.js') }}"></script>
+<script src="{{ secure_asset('js/jquery.js') }}"></script>
+<script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ secure_asset('js/wow.min.js') }}"></script>
+<script src="{{ secure_asset('js/custom.js') }}"></script>
 
 </body>
 </html>

@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::view('/station', 'station');
 Route::get('/', function () {
     return view('index');
 });
@@ -20,7 +19,6 @@ Route::get('/silom', function () {
 Route::get('/sukhumvit', function () {
     return view('sukhumvit')->with('sukhumvit_stations', \App\SukhumvitStation::all());
 });
-
 Route::get('places/{id}', 'PlaceController@get');
 
 Auth::routes();
