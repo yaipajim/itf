@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class PlaceController extends Controller
 {
     public function get($id) {
-        if ($id < 21) {
+        if ($id <= 21) {
             $place = SukhumvitPlaces::find($id);
         }
         else if ($id > 21) {
